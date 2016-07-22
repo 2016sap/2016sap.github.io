@@ -450,7 +450,7 @@ body {
 }
 
 .speaker-name {
-	font-weight:700;
+	font-weight:300;
 text-align:center;
 }
 
@@ -468,7 +468,7 @@ text-align:center;
 
 .speaker-session {
 	color:#79B543;
-	font-weight:700;
+	font-weight:400;
 }
 
 .speaker-container {
@@ -1671,7 +1671,7 @@ footer {
 
 	}
 	.speaker-name {
-		font-weight:700;
+		font-weight:400;
 		text-align:center;
 		font-size:1.5em;
 	}
