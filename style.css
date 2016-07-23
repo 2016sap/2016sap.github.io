@@ -21,6 +21,14 @@ body {
 	bottom:0;
 }
 
+.icn_logo {
+	float:right;
+}
+
+.row {
+	clear:both;
+
+}
 .page-width {
 	width:60%;
 	margin-right:auto;
