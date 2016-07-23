@@ -321,56 +321,65 @@ $(document).ready(function(){
 	<!-- <div class="col-md-3"></div> -->
 	<div class="col-md-12">
 		<h1 class="title">agenda</h1>
+		<p class="content3" style="text-align:center">* <span class="agenda-location1">Deep Dive</span> sessions are interactive workshops. <span class="agenda-location2">Small Dive</span> sessions are TED-style talks.</p>
 		<!-- make columns based on sessions-->
 		<!-- developer / non-developer ones? -->
 		<!-- rearrange groupings of sessions, just get the format right now -->
 		<!-- description of deep dive and small dive, and booths -->
 		<div class="row">
 			<div class="col-sm-6 col-xs-12 agenda-column">
-			<h3 class="agenda-title">Deep Dive (Sequoia)</h3>
+			<h3 class="agenda-title">@ Sequoia</h3>
+
 			<!-- copy and paste for other sessions -->
 				<div class="agenda-content">
 					<h4 class="agenda-time">10:00 AM- 11:25 AM </h4>
 					<h4 class="agenda-event">Design Thinking Workshop: Pok&#233;mon GO for the Enterprise</h4>
-					<h5 class="agenda-location">Wafaa Sabil & Team</h5>
+					<h5 class="agenda-location agenda-location1">deep dive</h5>
+					<h5 class="agenda-person">Wafaa Sabil & Team</h5>
 				</div>
 				<div class="agenda-content">
 					<h4 class="agenda-time">11:30 AM - 12:00 PM </h4>
 					<h4 class="agenda-event">Doing the Boring Stuff Can Actually Bring Money - Learn how SAP's Machine Learning Platform and Application Help Create the Intelligent Enterprise</h4>
-					<h5 class="agenda-location">Peter Weigt</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Peter Weigt</h5>
 				</div>
 				<!-- this doesn't display until certain resolutions -->
 				<div class="agenda-content dive-for-scale">
 					<h4 class="agenda-time">1:30 PM - 2:25 PM</h4>
 					<h4 class="agenda-event">How to Build Slack Bots: Learn from the Creators</h4>
-					<h5 class="agenda-location">Slack</h5>
+					<h5 class="agenda-location agenda-location1">deep dive</h5>
+					<h5 class="agenda-person">Slack</h5>
 				</div>
 				<!-- this doesn't display until certain resolutions -->
 				<div class="agenda-content dive-for-scale">
 					<h4 class="agenda-time">2:30 PM - 2:55 PM</h4>
 					<h4 class="agenda-event">HanaHaus Chatbot: Making Workspace Reservations with Simple Text Messages</h4>
-					<h5 class="agenda-location">Karthik Uppuluri</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Karthik Uppuluri</h5>
 				</div>
 
 			</div>
 
 			<!-- <div class="col-md-2"></div> -->
 			<div class="col-sm-6 col-xs-12 agenda-column">
-				<h3 class="agenda-title">Small Dive (Library)</h3>
+				<h3 class="agenda-title">@ Library</h3>
 				<div class="agenda-content">
 					<h4 class="agenda-time">10:00 AM - 11:00 AM </h4>
 					<h4 class="agenda-event">ML101: Is Machine Learning Controlling Your Life</h4>
-					<h5 class="agenda-location">Karsten Schmidt, Frank Blechschmidt</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Karsten Schmidt, Frank Blechschmidt</h5>
 				</div>
 				<div class="agenda-content">
 					<h4 class="agenda-time">11:00 AM - 11:25 AM </h4>
 					<h4 class="agenda-event">Connecting Google Deep Mind to SAP Applications</h4>
-					<h5 class="agenda-location">Alex Schaefer / Rene Springer</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Alex Schaefer / Rene Springer</h5>
 				</div>
 				<div class="agenda-content">
 					<h4 class="agenda-time">11:30 AM - 12:00 PM </h4>
 					<h4 class="agenda-event">The User Experience Approach when Designing Machine Learning Applications</h4>
-					<h5 class="agenda-location">Sajid Sayed, Lucia Melgarejo, Shae Maeda</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Sajid Sayed, Lucia Melgarejo, Shae Maeda</h5>
 				</div>
 			</div>
 
@@ -380,6 +389,10 @@ $(document).ready(function(){
 
 			<h4 class="lunch-keynote">&mdash;  Keynote &mdash;</h4>
 			<p class="lunch-content">12:30 PM - 1:15 PM<br><span class="keynote">Slack in the Enterprise</span></p>
+			
+			<h4 class="lunch-keynote">&mdash;  Blue Bottle Coffee &mdash;</h4>
+			<p class="lunch-content">1:30 PM - 3:00 PM<br><span class="keynote">HanaHaus will be hosting a pop-up caf&#233; throughout the afternoon.</span></p>
+
 			</div>
 
 <!-- DISPLAYS AT CERTAIN RESOLUTION DEEP DIVE -->
@@ -389,12 +402,14 @@ $(document).ready(function(){
 				<div class="agenda-content  agenda-not-for-scale">
 					<h4 class="agenda-time">1:30 PM - 2:25 PM </h4>
 					<h4 class="agenda-event">How to Build Slack Bots: Learn from the Creators</h4>
-					<h5 class="agenda-location">Slack</h5>
+					<h5 class="agenda-location agenda-location1">deep dive</h5>
+					<h5 class="agenda-person">Slack</h5>
 				</div>
 				<div class="agenda-content  agenda-not-for-scale">
 					<h4 class="agenda-time">2:30 PM - 2:55 PM </h4>
 					<h4 class="agenda-event">HanaHaus Chatbot: Making Workspace Reservations with Simple Text Messages</h4>
-					<h5 class="agenda-location">Karthik Uppuluri</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Karthik Uppuluri</h5>
 				</div>
 			</div>
 
@@ -406,17 +421,20 @@ $(document).ready(function(){
 				<div class="agenda-content">
 					<h4 class="agenda-time">1:30 - 1:55 PM </h4>
 					<h4 class="agenda-event">Disruptive Technologies and Current Trends in Silicon Valley </h4>
-					<h5 class="agenda-location">Till Pieper</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Till Pieper</h5>
 				</div>
 				<div class="agenda-content">
 					<h4 class="agenda-time">2:00 PM - 2:25 PM</h4>
 					<h4 class="agenda-event">Driving Customer Engagements with Machine Learning</h4>
-					<h5 class="agenda-location">Anil Babu Ankisettipalli</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Anil Babu Ankisettipalli</h5>
 				</div>
 				<div class="agenda-content">
 					<h4 class="agenda-time">2:30 PM - 2:55 PM</h4>
 					<h4 class="agenda-event">Where Will Deep Learning Take Up with Enterprise Applications?</h4>
-					<h5 class="agenda-location">Judith Li</h5>
+					<h5 class="agenda-location  agenda-location2">small dive</h5>
+					<h5 class="agenda-person">Judith Li</h5>
 				</div>
 			</div>
 
@@ -443,7 +461,7 @@ $(document).ready(function(){
 				<div class="speaker-container">
 						<img src="assets/placeholder-person.svg" class="speaker-img img-responsive">
 						<h4 class="speaker-name">Shae Maeda</h4>
-						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span><br><span class="speaker-session">In BOts We Trust</span></h5>
+						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span><br><span class="speaker-session"></span></h5>
 			</div>
 		</div>
 		<!-- one speaker -->
@@ -451,7 +469,7 @@ $(document).ready(function(){
 				<div class="speaker-container">
 						<img src="assets/placeholder-person.svg" class="speaker-img img-responsive">
 						<h4 class="speaker-name">Shae Maeda</h4>
-						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span><br><span class="speaker-session">In BOts We Trust</span></h5>
+						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span><br><span class="speaker-session"></span></h5>
 			</div>
 		</div>
 		<!-- one speaker -->
@@ -459,7 +477,7 @@ $(document).ready(function(){
 				<div class="speaker-container">
 						<img src="assets/placeholder-person.svg" class="speaker-img img-responsive">
 						<h4 class="speaker-name">Shae Maeda</h4>
-						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span> <br><span class="speaker-session">In BOts We Trust</span></h5>
+						<h5 class="speaker-title"><span class="speaker-position">UX Designer</span> <br><span class="speaker-session"></span></h5>
 			</div>
 		</div>
 </div>

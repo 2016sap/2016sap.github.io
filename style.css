@@ -349,6 +349,25 @@ body {
 	width:63%;
 	margin-top:-0.4vh;
 	font-size:1.2em;
+	font-weight:700;
+}
+
+.agenda-location1 {
+	color:#0D7EC1;
+	font-weight:400;
+}
+
+.agenda-location2 {
+	color:#ED8922;
+	font-weight:400;
+}
+
+.agenda-person {
+	float:right;
+	clear:both;
+	width:63%;
+	margin-top:-0.4vh;
+	font-size:1.2em;
 	font-weight:300;
 }
 
@@ -624,7 +643,7 @@ footer {
 		width:70%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:70%;
 		font-size:1em;
 	}
@@ -794,7 +813,7 @@ footer {
 		width:68%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person{
 		width:68%;
 		margin-top:-1vh;
 		font-size:1.1em;
@@ -903,7 +922,7 @@ footer {
 		width:75%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:75%;
 	}
 
@@ -1024,7 +1043,7 @@ footer {
 		font-size:1.2em;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:80%;
 		margin-top:-5vh;
 	}
@@ -1166,7 +1185,7 @@ footer {
 		width:80%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:80%;
 		margin-top:-1vh;
 	}
@@ -1286,7 +1305,7 @@ footer {
 		display:none !important;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:70%;
 		margin-top:-0.5vh;
 	}
@@ -1393,7 +1412,7 @@ footer {
 		width:75%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:75%;
 		margin-top:-2vh !important;
 	}
@@ -1512,7 +1531,7 @@ footer {
 		width:75%;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:75%;
 	}
 
@@ -1555,7 +1574,7 @@ footer {
 		font-size:1.5em;
 	}
 
-	.agenda-location {
+	.agenda-location, .agenda-person {
 		width:70%;
 	}
 }
