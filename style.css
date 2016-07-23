@@ -23,6 +23,7 @@ body {
 
 .icn_logo {
 	float:right;
+	width:125px;
 }
 
 .row {
@@ -580,6 +581,10 @@ footer {
 
     /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px){
+
+.icn_logo {
+	width:75px;
+}
 .navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 	}
@@ -780,7 +785,9 @@ footer {
 
 
 @media only screen and (min-width : 360px) and (max-width: 470px) {
-
+.icn_logo {
+	width:75px;
+}
 	.navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 	}
@@ -954,6 +961,12 @@ footer {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) and (max-width:630){
+
+	.icn_logo {
+	width:75px;
+}
+
+
 .navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 		display:none;
@@ -1044,6 +1057,12 @@ footer {
 
 /* iphone 5 horizontal*/
 @media only screen and (width : 568px){
+
+	.icn_logo {
+	width:85px;
+}
+
+
 .navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 		display:none;
@@ -1485,6 +1504,9 @@ footer {
 
 
 @media only screen and (min-width : 770px) and (max-width:779px) {
+	.icn_logo {
+	width:90px;
+}
 	.navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 		/*display:none;*/
