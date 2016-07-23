@@ -738,10 +738,10 @@ footer {
 	}
 
 	.featured-company {
-		font-weight:400;
-		font-size:1.2em;
-		padding:0 3vh;
-		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+
 	}
 
 	.featured-img {
@@ -907,10 +907,11 @@ footer {
 	}
 
 	.featured-company {
-		font-weight:400;
-		font-size:1.2em;
-		padding:0 3vh;
-		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+
+		
 	}
 
 	.featured-img {
