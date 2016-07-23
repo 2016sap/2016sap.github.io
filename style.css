@@ -279,6 +279,9 @@ body {
 	color:#0D7EC1;
 }
 
+.project-row {
+	margin-bottom:3vh;
+}
 .project-modules {
 	text-align:center;
 	/*font-family: 'Lato', sans-serif;*/
@@ -305,18 +308,27 @@ body {
 
 .featured-content {
 	font-weight:300;
-	font-size:1.5em;
+	font-size:1.2em;
 	margin-top:3vh;
+	text-align:justify;
 }
 
 .featured-name {
 	font-weight:700;
 	font-size:2em;
+	padding-top:0;
+	color:#AA217D;
 }
 
 .featured-company {
-	font-weight:400;
-	font-size:1.2em;
+	/*font-weight:400;
+	font-size:1.2em;*/
+	width:100px;
+}
+
+.featured-img {
+	border:0.5px solid #CCC;
+	/*margin:2vh;*/
 }
 
 
@@ -466,6 +478,7 @@ body {
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
+	border:0.5px solid #CCC;
 }
 
 .speaker-name {
@@ -709,6 +722,35 @@ footer {
 		padding-bottom:4vh;
 	}
 
+	.featured-content {
+		margin-top:2vh;
+		text-align:justify;
+		padding:3vh;
+		font-size:1.1em;
+	}
+
+	.featured-name {
+		font-weight:700;
+		font-size:1.4em;
+		padding-top:0;
+		padding: 0 3vh;
+		text-align:center;
+	}
+
+	.featured-company {
+		font-weight:400;
+		font-size:1.2em;
+		padding:0 3vh;
+		text-align:center;
+	}
+
+	.featured-img {
+		border:0.5px solid #CCC;
+		/*margin:2vh;*/
+	}
+
+
+
 }
 
 
@@ -849,6 +891,32 @@ footer {
 		background-position:right;
 	}
 
+	.featured-content {
+		margin-top:2vh;
+		text-align:justify;
+		padding:3vh;
+		font-size:1.2em;
+	}
+
+	.featured-name {
+		font-weight:700;
+		font-size:1.4em;
+		padding-top:0;
+		padding: 0 3vh;
+		text-align:center;
+	}
+
+	.featured-company {
+		font-weight:400;
+		font-size:1.2em;
+		padding:0 3vh;
+		text-align:center;
+	}
+
+	.featured-img {
+		border:0.5px solid #CCC;
+		/*margin:2vh;*/
+	}
 
 
 }
@@ -1045,7 +1113,7 @@ footer {
 
 	.agenda-location, .agenda-person {
 		width:80%;
-		margin-top:-5vh;
+		margin-top:-2vh;
 	}
 	.agenda-column {
 		padding-bottom:2vh;
@@ -1085,13 +1153,40 @@ footer {
 		background-position:right;
 	}
 
+	.featured-content {
+		margin-top:2vh;
+		text-align:justify;
+		padding:3vh;
+		font-size:1.2em;
+		padding: 0 13vh;
+	}
+
+	.featured-name {
+		font-weight:700;
+		font-size:1.8em;
+		padding-top:0;
+		padding: 0 13vh;
+	}
+
+	.featured-company {
+		font-weight:400;
+		font-size:1.2em;
+		padding: 0 13vh;
+	}
+
+	.featured-img {
+		border:0.5px solid #CCC;
+		/*margin:2vh;*/
+	}
+
+
 
 
 }
 
 
 
-@media only screen and (min-width: 631px) and (max-width:780px) {
+@media only screen and (min-width: 631px) and (max-width:760px) {
 	.navbar {
 		background:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.95));
 		display:none;
@@ -1161,12 +1256,6 @@ footer {
 		padding:0;
 	}
 
-
-
-/*	.content {
-		padding-top:3vh;
-	}
-*/
 	.agenda-title {
 		text-align:center;
 		font-weight:700;
@@ -1218,6 +1307,33 @@ footer {
 		.speaker-container {
 		margin-bottom:7vh;
 	}
+
+	.featured-content {
+		margin-top:2vh;
+		text-align:justify;
+		padding:3vh;
+		font-size:1.2em;
+		padding: 0 15vh;
+	}
+
+	.featured-name {
+		font-weight:700;
+		font-size:1.8em;
+		padding-top:0;
+		padding: 0 15vh;
+	}
+
+	.featured-company {
+		font-weight:400;
+		font-size:1.2em;
+		padding: 0 15vh;
+	}
+
+	.featured-img {
+		border:0.5px solid #CCC;
+		/*margin:2vh;*/
+	}
+
 
 
 
@@ -1409,11 +1525,11 @@ footer {
 
 	.agenda-event {
 
-		width:75%;
+		width:70%;
 	}
 
 	.agenda-location, .agenda-person {
-		width:75%;
+		width:70%;
 		margin-top:-2vh !important;
 	}
 
@@ -1577,11 +1693,15 @@ footer {
 	.agenda-location, .agenda-person {
 		width:70%;
 	}
+
+	#speakers {
+		width:90%;
+	}
 }
 @media only screen and (min-width : 980px){
-/*	.page-width {
-		width:90%;
-	}*/
+.featured-img {
+		margin-top:2.75vh;
+	}
 
 }
 
@@ -1618,6 +1738,13 @@ footer {
 	#kmsembed-0_dj2h7e6d {
 		height:30% !important;
 	}
+	#speakers {
+		width:85%;
+	}
+	.featured-img {
+		margin-top:2.75vh;
+	}
+
 
 }
 
@@ -1657,6 +1784,13 @@ footer {
 	.speaker-session {
 		font-size:1.2em;
 	}
+	#speakers {
+		width:85%;
+	}
+	.featured-img {
+		margin-top:2.75vh;
+	}
+
 }
 
 @media only screen and (min-width: 1801px){
@@ -1703,6 +1837,14 @@ footer {
 	.speaker-session {
 		font-size:1.2em;
 	}
+	#speakers {
+		width:85%;
+	}
+
+	.featured-img {
+		margin-top:2.75vh;
+	}
+
 
 }
 
