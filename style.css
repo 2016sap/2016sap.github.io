@@ -1497,13 +1497,16 @@ footer {
 	}
 
 	.speaker-img{
-		margin-bottom:5vh;
+		margin-bottom:1vh;
+	}
+	.speaker-title {
+		margin-bottom:2vh;
 	}
 
 }
 
 
-@media only screen and (min-width : 770px) and (max-width:779px) {
+@media only screen and (min-width : 770px) and (max-width:780px) {
 	.icn_logo {
 	width:90px;
 }
@@ -1608,7 +1611,7 @@ footer {
 	}
 
 	.speaker-img{
-		margin-bottom:5vh;
+		margin-bottom:2vh;
 	}
 
 
@@ -1726,8 +1729,12 @@ footer {
 	}
 
 	.speaker-img{
-		margin-bottom:5vh;
+		margin-bottom:1vh;
 		/*width:40%;*/
+	}
+
+	.speaker-title {
+		margin-bottom:3vh;
 	}
 	#speakers {
 		width:9%;
